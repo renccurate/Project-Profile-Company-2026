@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - FreeCam Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html#home">
+                    <img src="logonanami.png" alt="Logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html#college">Project</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#org">Certification</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h1 style="text-align:center; margin-bottom: 30px;">Game 3D: FreeCam Builder</h1>
+        <p class="project-desc" style="text-align:center;">
+            FreeCam Builder adalah game 3D sandbox berbasis Python yang dibuat menggunakan engine Panda3D. 
+            Dalam game ini, pemain diberikan kebebasan penuh untuk merancang dan menyusun bangunan dari berbagai pilihan warna balok menggunakan sudut pandang kamera terbang. Salah satu tujuan saya membuat game ini adalah untuk memahami cara kerja ruang 3D, manipulasi kamera bebas, penempatan objek koordinat grid, serta sistem penyimpanan data peta (save/load) melalui kode.<br><br>
+            Berikut cara kerja game dan cara memainkan FreeCam Builder:
+        </p>
+
+        <p style="margin-left: 60px;"><b>Cara Kerja Game :</b></p>
+        <ol style="margin-left: 60px;">
+            <li>Dunia 3D dirender secara real-time menggunakan grid koordinat untuk penempatan balok yang presisi.</li>
+            <li>Sistem kamera bebas (FreeCam) memperbarui posisi dan sudut pandang pemain di udara secara fleksibel.</li>
+            <li>Pemain dapat memilih berbagai variasi warna balok untuk menyusun struktur bangunan sesuai kreativitas.</li>
+            <li>Data struktur bangunan yang telah dibuat dapat disimpan dan dimuat kembali melalui file data peta (<code>my_map.dat</code>).</li>
+        </ol>
+
+        <p style="margin-left: 60px;"><b>Cara Bermain FreeCam Builder:</b></p>
+        <ol style="margin-left: 60px;">
+            <li>Gunakan tombol kontrol navigasi (W, A, S, D / tombol arah) untuk menggerakkan kamera terbang menjelajahi area.</li>
+            <li>Arahkan dan miringkan sudut pandang kamera untuk melihat area pembangunan dari berbagai perspektif.</li>
+            <li>Pilih warna balok yang diinginkan, lalu pasang atau hapus balok untuk mulai membangun.</li>
+            <li>Gunakan tombol pintasan Save/Load untuk menyimpan progres dunia ke dalam file atau memuat ulang bangunan yang sudah ada.</li>
+        </ol>
+
+        <div class="project-gallery" style="text-align:center;">
+            <!-- Screenshot Gameplay & Fitur -->
+            <div class="img-horizontal" style="margin-top: 50px;">
+                <img src="freecam1.png" alt="Variasi Warna Balok">
+            </div>
+            <div class="img-horizontal" style="margin-top: 50px;">
+                <img src="freecam2.png" alt="Kontrol Kamera Bebas">
+            </div>
+        </div>
+
+        <p style="text-align:center; margin-top: 40px;">Download Game melalui link di bawah ini:</p>
+        <p style="text-align:center;">
+            <a href="https://github.com/syasyul/freecam-builder.git" target="_blank">FreeCam Builder</a>
+        </p>
+    </section>
+</body>
+</html>
